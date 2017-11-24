@@ -1,13 +1,14 @@
 with(other){
-	playerHp = playerHp-1;
-	if(playerHp < 1){
-		game_restart();
+	playerHp--;
+	if(playerHp <= 0){
+		global.livesp--;
+		playerHp=playerMaxHp;
 	}
-	if(score >= 25){
-		score -= 25;
+	if(global.scorep >= 25){
+		global.scorep -= 25;
 	}
-	if(score < 0){
-		score = 0;
+	if(global.scorep < 0){
+		global.scorep = 0;
 	}
 }
 instance_destroy();

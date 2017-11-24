@@ -1,14 +1,12 @@
 with(other){
+	global.livesp--;
+	playerHp=playerMaxHp
 	playerHp = playerHp-10;
-	if(playerHp < 1){
-		lives -= 1;
-		playerHp = playerMaxHp;
+	if(global.scorep >= 150){
+		global.scorep -= 150;
 	}
-	if(score >= 150){
-		score -= 150;
-	}
-	if(score < 0){
-		score = 0;
+	if(global.scorep < 0){
+		global.scorep = 0;
 	}
 }
 instance_destroy();

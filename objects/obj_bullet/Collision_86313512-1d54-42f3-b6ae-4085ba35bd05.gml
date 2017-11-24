@@ -1,7 +1,7 @@
 with(other){
 	hp = hp-1;
 	if(hp == 0){
-		score += 100;
+		global.scorep += 100;
 	}
 }
 
