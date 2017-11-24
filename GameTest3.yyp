@@ -566,7 +566,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\/testRoom\/testRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -628,6 +628,25 @@
             }
         },
         {
+            "Key": "da469468-bb5d-49ba-9030-a2a21f38add9",
+            "Value": {
+                "id": "c65e91eb-eb03-4f95-a721-f3e691e6b7e5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/room2\/room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "dbe4e7ea-70f3-4913-a87d-18c05faa47b8",
             "Value": {
                 "id": "56e636c4-bc6a-44be-b0ca-f28b4a09f2ab",
@@ -685,6 +704,25 @@
             }
         },
         {
+            "Key": "ea24f590-d66a-4449-a62a-8c5ca03077ff",
+            "Value": {
+                "id": "0426720d-59dd-4bff-992e-ffc0a44046ff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/room1\/room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "e4c6836a-ff9d-49b7-b449-0915c68d569f",
@@ -701,6 +739,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4f7e21a-1cff-4537-97fc-fe88e8190e2a",
+            "Value": {
+                "id": "4987407f-9a7c-45de-af97-2ccb9033a525",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/room3\/room3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

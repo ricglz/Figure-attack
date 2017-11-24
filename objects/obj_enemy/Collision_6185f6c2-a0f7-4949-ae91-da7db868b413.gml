@@ -1,6 +1,6 @@
 with(other){
 	playerHp = playerHp-1;
-	if(playerHp < 1){
+	if(playerHp <= 0){
 		lives -= 1;
 		playerHp = playerMaxHp;
 	}
