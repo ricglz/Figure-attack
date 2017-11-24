@@ -1,3 +1,4 @@
+audio_play_sound(snd_Intro, 1, true);
 global.strGameState = "start";
 //Start			-Inicio del juego
 //Start_Menu	-Menu de Inicio

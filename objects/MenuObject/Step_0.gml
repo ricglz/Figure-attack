@@ -29,6 +29,7 @@ switch(global.strGameState)
 			{
 				case 0:
 					window_set_position(0,0);
+					audio_pause_sound(snd_Intro);
 					room_goto(room1);
 					global.strGameState = "game_new";
 				break;

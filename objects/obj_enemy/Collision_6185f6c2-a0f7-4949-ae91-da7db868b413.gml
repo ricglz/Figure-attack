@@ -1,3 +1,4 @@
+audio_play_sound(snd_Damage, 1, false);
 with(other){
 	playerHp = playerHp-1;
 	if(playerHp <= 0){

@@ -23,19 +23,9 @@ if(mouse_check_button(mb_left)) && (cooldown < 1){
 	instance_create_layer(x,y,"BulletsLayer",obj_bullet);
 	cooldown = 5;
 }
-if(global.livesp == 0){
-	game_restart();
+if(global.livesp == 0 && !instance_exists(obj_GameOver)){
+	audio_play_sound(snd_GameOver, 100, false);
+	instance_create_layer(x, y, "BulletsLayer", obj_GameOver);
 }
-if(global.scorep>=2500 && global.level==1){
-	global.level++;
-	global.livesp++;
-	room_goto(MediumRoom);
-}
-if(global.scorep>=7500 && global.level==2){
-	global.level++;
-	global.livesp++;
-	room_goto(MediumRoom);
-}
-
 
 cooldown = cooldown - 1;
