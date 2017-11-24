@@ -609,25 +609,6 @@
             }
         },
         {
-            "Key": "a24ebea0-206b-49da-a8a4-26fdbc30fcf0",
-            "Value": {
-                "id": "88064a77-5a29-41b4-9950-c55682fb8ade",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sounds\/snd_FinalRound\/snd_FinalRound.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "a27672b3-c70e-485c-827f-2aaf87a680d2",
             "Value": {
                 "id": "f7992278-523f-41ae-b0c6-97d319e5ed36",
@@ -701,6 +682,25 @@
                 ],
                 "resourcePath": "views\/ad175bee-4a1b-4e1f-b6ec-c6afa8045dd8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af671e11-11e5-40bd-9f2a-5d341583dae8",
+            "Value": {
+                "id": "bff1636f-a883-4f32-8aa5-a9ade7202501",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_FinalRound\/snd_FinalRound.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1029,7 +1029,7 @@
         {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
-                "id": "e4c6836a-ff9d-49b7-b449-0915c68d569f",
+                "id": "fc3472c5-6fd3-4448-add3-be18cbd9707e",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
